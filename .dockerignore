@@ -1,0 +1,21 @@
+# Gradle cache
+.gradle
+
+# Build output from Gradle (exclude everything except the final JAR)
+build
+!build/libs/*.jar
+
+# IDE configuration files
+.idea
+*.iml
+
+# Git directory and files
+.git
+.gitignore
+
+# Docker files
+Dockerfile
+.dockerignore
+
+# Log files
+*.log

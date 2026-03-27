@@ -1,7 +1,7 @@
 services:
-  api:
+  chat-api:
     build: .
-    image: sloth-app-api
-    container_name: sloth-app-api
+    image: sloth-life-chat-api
+    container_name: sloth-life-chat-api
     ports:
       - "8080:8080"

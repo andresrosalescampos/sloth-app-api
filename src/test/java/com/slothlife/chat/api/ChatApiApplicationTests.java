@@ -1,10 +1,10 @@
-package com.slothlife.api;
+package com.slothlife.chat.api;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ApiApplicationTests {
+class ChatApiApplicationTests {
 
 	@Test
 	void contextLoads() {

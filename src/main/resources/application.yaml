@@ -1,3 +1,11 @@
 spring:
   application:
-    name: api
+    name: chat-api
+  config:
+    import: "optional:classpath:application-local.yaml"
+
+gemini:
+  api:
+    base-url: https://generativelanguage.googleapis.com/v1/models
+    model: gemini-2.5-flash
+    key: ${GEMINI_API_KEY:}

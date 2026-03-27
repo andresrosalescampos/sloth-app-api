@@ -1,13 +1,13 @@
-package com.slothlife.api;
+package com.slothlife.chat.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ApiApplication {
+public class ChatApiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ApiApplication.class, args);
+		SpringApplication.run(ChatApiApplication.class, args);
 	}
 
 }

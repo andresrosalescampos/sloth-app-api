@@ -1,1 +1,10 @@
-rootProject.name = 'api'
+pluginManagement {
+    repositories {
+        maven {
+            url 'https://nexus-proxy.almuk.santanderuk.corp/repository/maven-public'
+        }
+        gradlePluginPortal()
+        mavenCentral()
+    }
+}
+rootProject.name = 'chat-api'
